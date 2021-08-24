@@ -16,7 +16,8 @@
     "mustache"
   ],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "license": "Apache-2.0",
   "devDependencies": {
