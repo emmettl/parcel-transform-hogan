@@ -1,0 +1,38 @@
+{
+  "name": "parcel-transform-hogan",
+  "version": "1.0.0",
+  "dependencies": {
+    "hogan.js": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=14",
+    "parcel": "^2.2.0"
+  },
+  "main": "dist/HoganTranformer.js",
+  "types": "dist/HoganTranformer.d.ts",
+  "keywords": [
+    "parcel",
+    "plugin",
+    "hogan",
+    "mustache"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.1",
+    "@types/hogan.js": "^3.0.1",
+    "parcel": "^2.2.1",
+    "typescript": "^4.5.5"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emmettl/parcel-transform-hogan"
+  }
+}
